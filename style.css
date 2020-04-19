@@ -1,0 +1,122 @@
+body{
+    background-color:#FEFFFF;
+    margin: 0;
+}
+.icons ul h{
+    font-size: 70px;
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+    padding-left: 100px;
+  
+    
+}
+.icons{
+    overflow: hidden;
+    background: #333;
+   position: sticky;
+   top:0;
+}
+.icons ul {
+    margin: 100;
+    padding:0;
+    
+}
+.icons ul li {
+    list-style: none;
+    float:right;
+    margin-right:200px;
+}
+.icons ul li:last-child {
+    margin-left:0;
+}
+.icons ul li a{
+    background-image: url('icons.jpg');
+     background-repeat: no-repeat;
+     width:84px;
+    height:84px;
+    display: inline-block;
+    border: 2px solid #777;
+    border-radius: 35%;
+    transition: 1s;
+}
+.icons ul  li:nth-child(2) a{
+    background-position: -204px -306px;}
+.icons ul li:hover:nth-child(2) a{
+    background-position: -204px -170px  ;
+}
+.icons ul  li:nth-child(3) a{
+    background-position: -62px -302px ;
+}
+    
+    .icons ul li:hover:nth-child(3) a{
+        background-position: -62px -165px;}
+
+.pp1 h1 {
+    border: #333 solid 2px;
+    background-color: aliceblue;
+    color:darkslategrey;
+    margin: 0;
+    padding: 40px;
+    font-size:55px;
+    text-align: center;
+    text-shadow: 2px 2px 2px;
+}
+.pop{
+    margin:16px ;
+    background-color:#FBFFFF;
+    font-size:27px;
+ 
+}
+
+img{
+    background: white;
+    width: 550px;
+    height: 500px;
+    float:right;
+    box-shadow: 2px 2px 2px;
+    padding-left:10px;
+    
+}
+
+.info ul{
+    background-color: aliceblue;
+    width:380px;
+    height:270px;
+    border: black solid 2px ;
+    float:right;
+    box-shadow: 2px 2px 2px;
+    padding: 10px;
+    border: white solid 5px;
+
+}
+.info{
+    padding-left: 30px;
+}
+
+.info ul li{
+    list-style: none;
+    font-size: 35px; 
+    padding: 10px;
+}
+.pp2 h1{
+    background-color:blanchedalmond; 
+    text-align: center;
+    margin-right: 30%;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px;
+}
+p{margin:16px ;
+    background-color:#FBFFFF;;
+    font-size:27px;
+ }
+.pp3{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+.pp3 h2{
+     box-shadow: 2px 2px 2px rgba(255,0,6,0.2);
+}
